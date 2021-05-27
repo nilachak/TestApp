@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/home/rahulabrol1104/api-testing-example/test/controller.test.js">
+    <testCase name="should test controller when #getPost method method succeeds" duration="5"/>
+    <testCase name="should test controller when #getPost method method fails" duration="2"/>
+  </file>
+  <file path="/home/rahulabrol1104/api-testing-example/test/index.test.js">
+    <testCase name="should test server configuration should use router" duration="7"/>
+    <testCase name="should test server configuration should calle listen()" duration="1"/>
+  </file>
+  <file path="/home/rahulabrol1104/api-testing-example/test/service.test.js">
+    <testCase name="should test Service when #list method succeeds" duration="4"/>
+    <testCase name="should test Service when #list method fails" duration="1"/>
+  </file>
+  <file path="/home/rahulabrol1104/api-testing-example/test/router.test.js">
+    <testCase name="should test router should test get posts" duration="5"/>
+  </file>
+</testExecutions>

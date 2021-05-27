@@ -1,0 +1,38 @@
+{
+  "name": "api-testing-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node .",
+    "test": "jest test/**.test.js",
+    "coverage": "jest test/**.test.js --coverage",
+    "postinstall": "husky install"
+  },
+  "jest": {
+    "testResultsProcessor": "jest-sonar-reporter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jersson/api-testing-example.git"
+  },
+  "author": "JD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jersson/api-testing-example/issues"
+  },
+  "homepage": "https://github.com/jersson/api-testing-example#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.3",
+    "husky": "^5.0.0-beta.0",
+    "jest": "^26.1.0",
+    "jest-sonar-reporter": "^2.0.0"
+  }
+}
