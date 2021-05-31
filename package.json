@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "node .",
+    "build": "echo \"Build Stage\"",
     "test": "jest test/**.test.js",
     "coverage": "jest test/**.test.js --coverage",
     "postinstall": "husky install"
