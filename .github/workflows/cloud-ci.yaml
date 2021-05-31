@@ -7,7 +7,7 @@ on:
       - main
 
 jobs:
-  build:
+  CI Pipeline:
     # run build on latest ubuntu
     runs-on: ubuntu-latest
 
