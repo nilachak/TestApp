@@ -28,12 +28,12 @@
   "homepage": "https://github.com/jersson/api-testing-example#readme",
   "dependencies": {
     "axios": "^0.19.2",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jest": "^26.1.0",
+    "jest-sonar-reporter": "^2.0.0",
+    "@types/jest": "^26.0.3",    
   },
   "devDependencies": {
-    "@types/jest": "^26.0.3",
-    "husky": "^5.0.0-beta.0",
-    "jest": "^26.1.0",
-    "jest-sonar-reporter": "^2.0.0"
+    "husky": "^5.0.0-beta.0"
   }
 }
