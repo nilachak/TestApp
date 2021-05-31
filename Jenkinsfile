@@ -1,4 +1,3 @@
-
 pipeline{  
   agent any
     stages {
@@ -8,8 +7,6 @@ pipeline{
                 sh 'npm install'
               } 
            }   
-         }
-       
-        }
-    }
+         }      
+  }
 }
