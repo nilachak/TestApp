@@ -37,6 +37,7 @@ jobs:
     runs-on: ubuntu-latest        
     needs: build
     steps:
+    - uses: actions/checkout@v2    
     - name: Cache node modules
       uses: actions/cache@v2        
       env:
