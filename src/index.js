@@ -6,7 +6,7 @@ const router = require('./router');
 app.use(router);
 
 app.get('/', function (req, res) {
-  res.send('My Express App');
+  res.send('My Another Test App');
 });
 
 app.listen(3000, () => {
