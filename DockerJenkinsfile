@@ -1,0 +1,21 @@
+pipeline{  
+  agent { docker { node:12-slim } } 
+  
+    stages {
+        stage('Build'){
+           steps{
+              script{
+                sh 'npm install'
+              } 
+           }   
+         }
+        stage('Test and Generate Coverage'){
+           steps{
+              script{
+                sh 'npm run coverage'
+              } 
+           }   
+         }
+                                                          
+  }
+}
