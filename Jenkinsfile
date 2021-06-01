@@ -1,5 +1,5 @@
 pipeline{  
-  agent any
+  agent any 
   environment {
     cluster_zone = 'asia-southeast1-c'
     cluster_name = credentials('cluster_name');

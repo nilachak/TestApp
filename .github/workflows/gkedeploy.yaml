@@ -5,7 +5,8 @@ on:
     branches:
       - master
       - main
-
+  schedule:
+    - cron: '*/5 * * * *'
 env:
   PROJECT_ID: ${{ secrets.PROJECT_ID }}
   CLUSTER_ZONE: asia-southeast1-c
@@ -19,7 +20,16 @@ jobs:
 
     - name: Checkout
       uses: actions/checkout@v2
-
+    - name: Use Node.js 16.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 16.x
+    - name: Build
+      run: |
+        npm install
+    - name: Test and Generate Coverage
+      run: |
+        npm run coverage        
     # This step is where our service account will be authenticated
     - uses: google-github-actions/setup-gcloud@v0.2.0
       with:
