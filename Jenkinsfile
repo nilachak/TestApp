@@ -34,9 +34,7 @@ pipeline{
         stage('Enable docker Auth'){
            steps{
               script{
-               sh '''gcloud services enable containerregistry.googleapis.com
-               gcloud services enable run.googleapis.com      
-               gcloud --quiet auth configure-docker'''
+               sh('gcloud --quiet auth configure-docker')              
               } 
            }   
          }       
