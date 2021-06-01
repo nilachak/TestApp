@@ -28,7 +28,7 @@ jobs:
         npm install
     - name: Test and Generate Coverage
       run: |
-        npm install        
+        npm run coverage        
     # This step is where our service account will be authenticated
     - uses: google-github-actions/setup-gcloud@v0.2.0
       with:
