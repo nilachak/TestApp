@@ -27,16 +27,10 @@ pipeline{
               script{
                withCredentials([file(credentialsId: 'sa_file', variable: 'GC_KEY')]) {
                 sh('gcloud auth activate-service-account --key-file=${GC_KEY}')
-               }
-              } 
-           }   
-         } 
-        stage('Enable docker Auth'){
-           steps{
-              script{
-               sh '''gcloud services enable containerregistry.googleapis.com
+                sh '''gcloud services enable containerregistry.googleapis.com
                gcloud services enable run.googleapis.com      
-               gcloud --quiet auth configure-docker'''
+               gcloud --quiet auth configure-docker''' 
+               }
               } 
            }   
          } 
