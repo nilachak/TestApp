@@ -1,5 +1,8 @@
 pipeline{  
   agent any 
+  triggers {
+    cron('30 10 * * *')
+  }     
   environment {
     cluster_zone = 'asia-southeast1-c';
     cluster_name = credentials('cluster_name');
