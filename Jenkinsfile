@@ -4,7 +4,8 @@ pipeline{
     cluster_zone = 'asia-southeast1-c'
     cluster_name = credentials('cluster_name');
     project_id = credentials('project_id');
-    repo_name = 'testapp'
+    repo_name = 'testapp',
+    run_unit_test = 'dev'
   }
   tools {nodejs "nodejs"}  
     stages {
@@ -17,7 +18,7 @@ pipeline{
          }
         stage('Test and Generate Coverage'){
            when {
-             branch 'develop'
+             environment name: 'run_unit_test', value: 'dev'
            }
            steps{
               script{
