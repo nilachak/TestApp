@@ -1,4 +1,4 @@
-name: gke-run
+name: conditional
 
 on:
   push:
