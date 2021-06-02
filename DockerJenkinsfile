@@ -16,6 +16,13 @@ pipeline{
               } 
            }   
          }
+        stage('Test and Generate Coverage'){
+           steps{
+              script{
+                sh 'npm run coverage'
+              } 
+           }   
+         }         
                                                          
   }
 }
