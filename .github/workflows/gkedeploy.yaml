@@ -11,6 +11,7 @@ env:
   PROJECT_ID: ${{ secrets.PROJECT_ID }}
   CLUSTER_ZONE: asia-southeast1-c
   REPO_NAME: testapp
+  run_unit_test: dev
 
 jobs:
   build-and-deploy:
@@ -28,6 +29,7 @@ jobs:
       run: |
         npm install
     - name: Test and Generate Coverage
+      if: ${{ env.run_unit_test == 'dev' }}
       run: |
         npm run coverage        
     # This step is where our service account will be authenticated
