@@ -5,7 +5,7 @@ pipeline{
     cluster_name = credentials('cluster_name');
     project_id = credentials('project_id');
     repo_name = 'testapp';
-    run_unit_test = 'dev';
+    run_unit_test = 'main';
   }
   tools {nodejs "nodejs"}  
     stages {
