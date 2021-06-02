@@ -1,29 +1,28 @@
 pipeline{  
-  environment {
-    HOME = '.'
-  }
-  agent none
+    environment {
+        HOME = '.'
+    }
+  agent { 
+    docker { 
+      image 'node:14-alpine' 
+      } 
+    } 
   
     stages {
-      matrix {
-        axes {
-          axis {
-            name: 'NODE_IMAGES'
-            values: 'node:14-alpine', 'node:12-alpine'
-          }
-        }
-        agent {     
-          docker { 
-            image "${NODE_IMAGES}" 
-         }  
-      }
         stage('Build'){
            steps{
               script{
                 sh 'npm install'
               } 
            }   
+         }
+        stage('Test and Generate Coverage'){
+           steps{
+              script{
+                sh 'npm run coverage'
+              } 
+           }   
          }         
-     }                                                    
+                                                         
   }
 }
