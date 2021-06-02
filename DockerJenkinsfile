@@ -9,17 +9,10 @@ pipeline{
         stage('Build'){
            steps{
               script{
-                sh 'npm install'
+                sh 'npm run build'
               } 
            }   
          }
-        stage('Test and Generate Coverage'){
-           steps{
-              script{
-                sh 'npm run coverage'
-              } 
-           }   
-         }
-                                                          
+                                                         
   }
 }
