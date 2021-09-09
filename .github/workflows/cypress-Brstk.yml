@@ -27,7 +27,7 @@ jobs:
       
       - name: BrowserStack Test
         env:
-          BROWSERSTACK_USERNAME: nilachak93@gmail.com
-          BROWSERSTACK_ACCESS_KEY: C@stl2022
+          BROWSERSTACK_USERNAME: nilasishchakrabo_En2hOK
+          BROWSERSTACK_ACCESS_KEY: D45pa55JjaF9qKxosPoA
         run : |
           browserstack-cypress run --sync
