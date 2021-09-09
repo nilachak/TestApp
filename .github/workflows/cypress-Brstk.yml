@@ -1,0 +1,33 @@
+name: Cypress Browserstack
+
+on:
+   push: 
+     branches:
+      - main
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      
+      
+      - name: Build
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+
+      - run: npm ci
+      - run: npm run build
+
+      - run: npm run start & npx wait-on https://www.google.com
+
+      - run: npm install -g browserstack-cypress-cli
+      
+      
+      - name: BrowserStack Test
+        env:
+          BROWSERSTACK_USERNAME: nilachak93@gmail.com
+          BROWSERSTACK_ACCESS_KEY: C@stl2021e
+        run : |
+          browserstack-cypress run --sync
