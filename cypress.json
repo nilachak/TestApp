@@ -1,0 +1,255 @@
+{
+  "baseUrl": "https://www.google.com",
+  "delayBetweenTests": 1000,
+  "timeout": 20000,
+  "unsubscribe": {
+    "markets": [
+      {
+        "countryCode": "at",
+        "languageCodes": ["de"]
+      },
+      {
+        "countryCode": "au",
+        "languageCodes": ["en"]
+      },
+      {
+        "countryCode": "be",
+        "languageCodes": ["fr", "nl"]
+      },
+      {
+        "countryCode": "ca",
+        "languageCodes": ["en", "fr"]
+      },
+      {
+        "countryCode": "ch",
+        "languageCodes": ["de", "en", "fr", "it"]
+      },
+      {
+        "countryCode": "cz",
+        "languageCodes": ["cs"]
+      },
+      {
+        "countryCode": "de",
+        "languageCodes": ["de"]
+      },
+      {
+        "countryCode": "dk",
+        "languageCodes": ["da"]
+      },
+      {
+        "countryCode": "es",
+        "languageCodes": ["es", "en", "ca", "eu"]
+      },
+      {
+        "countryCode": "fi",
+        "languageCodes": ["fi"]
+      },
+      {
+        "countryCode": "fr",
+        "languageCodes": ["fr"]
+      },
+      {
+        "countryCode": "gb",
+        "languageCodes": ["en"]
+      },
+      {
+        "countryCode": "hr",
+        "languageCodes": ["hr"]
+      },
+      {
+        "countryCode": "hu",
+        "languageCodes": ["hu"]
+      },
+      {
+        "countryCode": "ie",
+        "languageCodes": ["en"]
+      },
+      {
+        "countryCode": "it",
+        "languageCodes": ["it"]
+      },
+      {
+        "countryCode": "jp",
+        "languageCodes": ["ja"]
+      },
+      {
+        "countryCode": "kr",
+        "languageCodes": ["ko"]
+      },
+      {
+        "countryCode": "nl",
+        "languageCodes": ["nl", "en"]
+      },
+      {
+        "countryCode": "no",
+        "languageCodes": ["no"]
+      },
+      {
+        "countryCode": "pl",
+        "languageCodes": ["pl"]
+      },
+      {
+        "countryCode": "pt",
+        "languageCodes": ["pt", "en"]
+      },
+      {
+        "countryCode": "ro",
+        "languageCodes": ["ro"]
+      },
+      {
+        "countryCode": "rs",
+        "languageCodes": ["sr"]
+      },
+      {
+        "countryCode": "ru",
+        "languageCodes": ["ru"]
+      },
+      {
+        "countryCode": "se",
+        "languageCodes": ["sv", "fi"]
+      },
+      {
+        "countryCode": "si",
+        "languageCodes": ["sl"]
+      },
+      {
+        "countryCode": "sk",
+        "languageCodes": ["sk"]
+      },
+      {
+        "countryCode": "us",
+        "languageCodes": ["en"]
+      }
+    ]
+  },
+  "program": {
+    "markets": [
+      {
+        "countryCode": "nl",
+        "languageCodes": ["nl", "en"]
+      }
+    ]
+  },
+  "users": {
+    "at": {
+      "partyUid": "b4P/CJVqXVsCJGaY7pZQB+TbzXgQQclaZVMM5Td/EyqwvoIMassm/ARwDCYwFjOC",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1GJmAy0PFu731DG+Z1pk3ZvqfmZoLlTM2fl/KPm+Q4Gx"
+    },
+    "au": {
+      "partyUid": "gsus3yHZY/UBFfoh5ttsz8fhlSuZYcjlaM/8zElcFaJGHlg2L+9Yp5yHcV1GRPNN",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1IgwxRwxlzNMfCE/9nFA9AcOGBKE/nWz8xZfG9ORlpLc"
+    },
+    "be": {
+      "partyUid": "l2d2jw26YZvgZDf0vTTG2GNm7xszc59cFzwdbRd2cxKEsUrub/OfXTaUG5Y6de2d",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1FTcmwZOKAi6yYnmb3B2WSj1+9ireV/hg1yuCF4HRNHL"
+    },
+    "ca": {
+      "partyUid": "CKkx/wCYofsOh/2g6WJM2mEHQChDc7b8WGwkXnAxaoNpd/PSFuSWOWPg9Yk+CyAS",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1N/XdXA29sh1pxieNT3XZnhS7IMfBqLyLBuQJ9DsYepw"
+    },
+    "ch": {
+      "partyUid": "QoN7RXEXRj0wPhw3Vdh9euRh8ILZNOw21MhjXc6Vldliui2rR/pAYGMFuyypY43V",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1H/93n2Sj2lVltaZZAoJUDwaavkSn15X2tIdx2cY/3vj"
+    },
+    "cz": {
+      "partyUid": "e0nhJlr+Tvk9/4RBUTc7Ouh+Gwt/rvWX+VB1DHumvSD4Q7igw/KbR8CEGoC2o/Lf",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1LN8YKCf1KER3O6R5P1X3b51bXz09QaceWxvfjqM59VN"
+    },
+    "de": {
+      "partyUid": "U1UbM7nk4ZKoh3/5/B4F0ZWEf1Xj6Fl+4FKoUPGK1ZLmkaYxSJ5mLgc/QT0ciHxC",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1FXfKMzDv6LsGWJCRbWo66T/j8pvONxHRqxin3nWrYDQ"
+    },
+    "dk": {
+      "partyUid": "jB3Wbhum3KKuTGxxyo9JId5VxzpixQwHNQ/6gZDK9DbXD9JzduvfmTjcf0bOq5o6",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1M8PB5BtwTSxKiIUqhLT8pj5/7upsFwtRUBourWjVCms"
+    },
+    "es": {
+      "partyUid": "Bj3MVEUxbNDWb+AVKcPEqzAtzd7cY4OMp+GRy6CzqvLp1qcyWYRjVeF+9+Xdre0V",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1B3XYGG6yV2Pbdk3rJuN9pL794oz9w+E4qcngwo7JAfN"
+    },
+    "fi": {
+      "partyUid": "IgcncJ+Eb7ofiCW84I4mCHhe5GQaGM61We9MvFIPVKNC5pI79RNuUe+wfR6VNJdy",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1JJLZ5toog4Q9/eWejvxolqzH5t0JYa5XE0E7ffu+2FX"
+    },
+    "fr": {
+      "partyUid": "g8Xpgfkna1nmMEFkSvLURlUEhj2G3QidbsDvXKPU6UDq5KKsT8rXA7Od/OXhh13D",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1P8lgXuqWODAZKAOoICgOkdGGHC6gNZMd0zv17gp0OCX"
+    },
+    "hr": {
+      "partyUid": "Dg4fTj/lwEt7hYn97e9jhbgh+3Rc5Iuzpiw2SURb1m8H0oe071UzMk7gBZ3UJ6Qr",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1L4OjfBFAG6l5si6Ra56Tm1B+6bORz22dmuiCMfLP/gt"
+    },
+    "hu": {
+      "partyUid": "1dMipJ4uShsbilKSnJVryWQUi3hwFQNCLfI+FlP7mJ6xjdPzG6SpkXwP3lrP+eup",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1KDuRyo4H1FSYSfDfot6YcOoYwpHdyn85eq0eQy/vXd+"
+    },
+    "gb": {
+      "partyUid": "Mzs/0ef3I27jI8O1sBvGVO/SwbQxUbaeAJJ3d+bAVps0JU7w3IncFTR5Pqkm9BEu",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1ETkcEEhnMsc6v/NUZx+yBhk9PMFQKEvbofiiM4ofuPS"
+    },
+    "ie": {
+      "partyUid": "yIbbqY8WNiDDonFhY/Jaqb9oQh3NeyBsfRX7oK6EDWOgCI6sakZhgW3OSXytFg5T",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1CHbeRqMyhaSiOIvyAprCZoChe0tGXEn06rQIg/5CLdi"
+    },
+    "in": {
+      "partyUid": "iQJ5CguXK0oaNZ5apEvNmWK7+bN4E8qc+FAmyUX0bhqkPzuROyOwTZ41Q6osl293",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1Irpz0gSOh9LTngFPPTtU53M4HctOMkAQNRi1bX/Hx3Q"
+    },
+    "it": {
+      "partyUid": "/qNV41dyvxgqN6uV5B03vIAIWOh141tSvW98M7SyRAAS90+qyUrjBNslsgO63PTf",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1HvsGaOzZy8W2I0AfqYBEA6fqsSCiM4fI+ncyjXjSU5x"
+    },
+    "jp": {
+      "partyUid": "lHnLCOcZYegXXyyDXR0+qjeNaNA63YsbeH1Z5Xv1IxVKw9IRbD0ykpCRuA5Gwie3",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1OJYw2jpc/1wH52higxu1XylpMatNGbbdB8K0kYbRLqm"
+    },
+    "kr": {
+      "partyUid": "GR2ANFQpsQymTog5FZfoaP7Jvw7XKSU1rJa8z+f35MEtbR+GhpoTTzNgqcQ2gg0A",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1OK3uXwvGVB5QOCWhe2tsLxkUMIyBLaItlCV46qunchz"
+    },
+    "nl": {
+      "partyUid": "CMi6zkkw+Pker3EqsT8pg2dXmlCh1yRcYYcINQ/JloBcJfgOm+iIscJ08bMtaSyH",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1AyEGsYqTfdQxYMEy7VKXEgsd/R3ewhfzTuLjJtmursn"
+    },
+    "no": {
+      "partyUid": "xSxI9FQrpfGYr85Xp/s1YGMza7TIpMeDKfVPxuM3TavR/xXcTMX9eq0RanjaCEK4",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1GlApXBT/a1Nv6oNrA7s6fOiCQ05nfNBIcawXhYY1O7v"
+    },
+    "pl": {
+      "partyUid": "wUIIq5PiWzcIWwIrjpazlD03OhsDF3d05abUFlyAo3I4aI+iMHEdcL8gg+yOCK0d",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1F2t2SgfSc/RnNcD8D61cbyF5kqwa3w6epm3hb4MSi+Q"
+    },
+    "pt": {
+      "partyUid": "agA310Ub1srAtPyx7mKT1iJN+WXldiOFkW7QdUcbTvz7m9vnXVFlZrOBMUldWPkq",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1HJdy7GlXsDv99KGIH7XK081n4rcqvZxDbBAsz+xz9Dq"
+    },
+    "ro": {
+      "partyUid": "1zLOdGpZxiG7dEDJwtdSzt5sk9XXNHU1+mY7epGnUmK8a3cx1xMpk80sHh0xTb0T",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1KY6w//Yu3Tb42XonMU5HLf2jRX0xkr5Dd6UovR2cW9y"
+    },
+    "rs": {
+      "partyUid": "YkQEsQVwTp/56A3frbfxt6WsKM20Wx0qxp0g6eLAH+UHcunkggdfaVVQ2hPATId0",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1KbYzsHJE5KR93zg9pVCsgqV3GyXBOv1TJTHN3tDyhbq"
+    },
+    "ru": {
+      "partyUid": "U3MZtk19wzbGsABB6Gs2hlnnkBn+BPsUdQaMg4Fi8DhoS9Mth1lZrvhLJQs2gdzR",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1AV+81Wx4UvxfDcHfNFOfRB7v1DdKAKgMFlOr7HBhz+S"
+    },
+    "se": {
+      "partyUid": "68TtFu/dNfdjgfC7c7nVDwu0qBpHxxYla7DNXwYIEd9In5kJ/nYU4I5V89vhksq6",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1FuYMXvEZOGeGiko/iR47Dy3PBcTI8gIcN1nGRYAl3Td"
+    },
+    "si": {
+      "partyUid": "wJoMLgxJX4AVasmD+mryl+tYSFp9gv1jqdY+hz7Jfi4hxVvQEUxenHWIfwOF7eTA",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1LuyT47XWeF7aj5+p2ETIGI1Wz1pi1MkfsOhRc8h69fa"
+    },
+    "sk": {
+      "partyUid": "Pls6Bx7USXrqGiJW2E0fEWu1uIMBdNqtQYuQ049N9+pIRmRO3khG+9c1MtfuCehj",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1D+HKWTBHWGdkX+WeAkI5JIaPv6V8LVQr3zPHYd/cKjW"
+    },
+    "us": {
+      "partyUid": "D648MeTH69qk3f0ivdlx+OzlGrao+ifAilo5iMUavDn6du+fPt1dnaA3pKG85NxH",
+      "email": "W7gZK+8Sbcbkw7pc9QbC1AqpV90uMy3Bu3CMbTE8B57t6IFxmuE9/ZOhBzOoSVi+"
+    }
+  }
+}
