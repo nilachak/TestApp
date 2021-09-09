@@ -24,7 +24,7 @@
     "cypress_version": "7",
     "project_name": "My sandbox project",
     "build_name": "Build no. 1",
-    "parallels": "5"
+    "parallels": "5",
     "specs": ["cypress/integration/index.js"]
   }
 }  
