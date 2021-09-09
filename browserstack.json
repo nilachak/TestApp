@@ -25,6 +25,6 @@
     "project_name": "TestApp",
     "build_name": "Build no. 1",
     "parallels": "5",
-    "specs": ["./unsubscribe.js"]
+    "specs": ["./src/index.js"]
   }
 }
